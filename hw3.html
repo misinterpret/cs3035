@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<style>
+		table {border: 1px solid black ;border-collapse: collapse}
+		td {border: 1px solid black ; text-align: center;}
+		table#t01 { background-color: #f1f1c1;}
+	</style>
+
+<head>
+		 <script src="jquery-3.2.0.min.js"> </script>
+ 		 <script src="hw1.js"> </script>
+<title>Homework 3</title>
+</head>
+	<body>
+
+
+	<table id="t01">
+		<tr>
+
+			<td>
+				<p id="hp"></p>
+				<p id="prize"></p>
+				
+			</td>
+
+			<td colspan = "2" rowspan = " 2" style="border: 1px solid black"  align="center"> <table id="map"></table></td>
+		</tr>
+
+		<tr>
+		<td > <p id="locate"></p> </td>
+		</tr>
+
+		<tr>
+
+			<td><p id="room"></p></td>
+
+			<td >
+				
+				<table>
+				<tr>
+					<td></td>
+
+					<td><button id="north">North</button></td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td><button id="west">West</button></td>
+					<td><button id="south">South</button></td>
+					<td><button id="east">East</button></td>
+				</tr>
+				</table>
+			</td>
+
+			<td>
+				<div style="height:200px;width:400px;border:1px solid #ccc; overflow:auto;">
+					<p id="event">;
+				</div>
+			</td>
+		</tr>
+
+	</table>
+		
+	</body>
+ </html>
